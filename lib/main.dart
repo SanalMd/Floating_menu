@@ -114,6 +114,7 @@ class _MacOSDockState extends State<MacOSDock> {
     );
   }
 
+
   Widget _buildDockItem(IconData icon, int index, {bool isDragging = false}) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 8),
